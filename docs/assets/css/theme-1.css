@@ -67,6 +67,20 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
   color: #fff;
 }
 
+a.btn-cta-primary-polite, .btn-cta-primary-polite {
+  background: #074f66;
+  border: 1px solid #074f66;
+  color: #fff;
+  font-weight: 600;
+}
+
+a.btn-cta-primary-polite:hover, .btn-cta-primary-polite:hover {
+  background: #053c4e;
+  border: 1px solid #053c4e;
+  color: #fff;
+}
+
+
 a.btn-cta-secondary, .btn-cta-secondary {
   background: #eebf3f;
   border: 1px solid #eebf3f;
