@@ -72,6 +72,7 @@ a.btn-cta-primary-polite, .btn-cta-primary-polite {
   border: 1px solid #074f66;
   color: #fff;
   font-weight: 600;
+  margin-right: 20px;
 }
 
 a.btn-cta-primary-polite:hover, .btn-cta-primary-polite:hover {
@@ -746,5 +747,9 @@ pre code {
   }
   .contact .social-icons a .svg-inline--fa {
     margin-top: 7px;
+  }
+  .btn-cta-primary-polite {
+  	  display:block;
+	  margin-top: 20px;
   }
 }
