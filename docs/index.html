@@ -104,10 +104,6 @@
   </video>
   </div>
   
-  <!--h2 style="margin-top: 140px;font-size: 48px;font-weight: 200;">
-	  Coming soon...
-  </h2-->
-
 	<p class="text-center" style="margin-top: 120px;">
 	    <a class="btn btn-cta-primary" style="background: #17baef;" href="https://github.com/icanzilb/Timelane/releases/latest" target="_blank">Download from GitHub</a>
 	    <a class="btn btn-cta-secondary" style="margin-left:10px;background: #2c677b;border:gray;" href="https://github.com/icanzilb/Timelane/" target="_blank">Fork</a>
@@ -159,6 +155,75 @@
                 </div><!--//item-->           
                 <div class="clearfix visible-md"></div>    
             </div><!--//row-->            
+
+<style>
+.video-item {
+	border: 1.5px solid gray;
+	border-radius: 10px;
+}
+@media only screen and (max-width: 414px)  {
+	.video-item { width: 213px; height: 160px; margin: auto;}
+    .round-button {	margin-left: 70px!important; margin-top: 45px!important;}
+}
+@media only screen and (min-width: 415px)  {
+	.video-item { width: 320px; height: 200px; }
+    .round-button {	margin-left: 120px!important; margin-top: 60px!important;}
+}
+@media only screen and (min-width: 1000px)  {
+	.video-item { width: 427px; height: 267px; }
+}
+
+.round-button {
+	box-sizing: border-box;
+	display:block;
+	width:80px;
+	height:80px;
+	padding-top: 14px;
+	padding-left: 8px;
+	line-height: 20px;
+	border: 6px solid #fff;
+	border-radius: 50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background-color: rgba(0,0,0,0.5);
+	font-size:20px;
+	font-weight:bold;
+	transition: all 0.3s ease;
+	position:absolute;
+	margin-top: 90px;
+	margin-left: 170px;
+}
+.round-button:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+</style>
+
+            <div class="row" style="margin-top:40px;">
+                <div class="item col-lg-6 col-md-6 col-12">
+                    <div class="content">
+                        <h3 class="sub-title">Debugging Combine code (1:14m)</h3>
+						<a href="https://vimeo.com/395904461" class="round-button"><i class="fa fa-play fa-2x"></i></a>
+                        <a href="https://vimeo.com/395904461">
+                        <img src="assets/images/teaching-poster.png" class="video-item"/>
+                        </a>
+                    </div><!--//content-->
+                </div><!--//item-->
+                
+                <div class="item col-lg-6 col-md-6 col-12">
+                    <div class="content">
+                        <h3 class="sub-title">Pair debugging remotely (0:45m)</h3>
+						<a href="https://vimeo.com/399608505" class="round-button"><i class="fa fa-play fa-2x"></i></a>
+                        <a href="https://vimeo.com/399608505">
+                        <img src="assets/images/remote-poster.png" class="video-item"/>
+                        </a>
+                    </div><!--//content-->
+                </div><!--//item-->           
+                <div class="clearfix visible-md"></div>    
+            </div><!--//row-->            
+
+
         </div><!--//container-->
     </section><!--//about-->
 
@@ -167,8 +232,8 @@
         <div class="container text-center">
             <h2 class="title">Features</h2>
             <ul class="feature-list list-unstyled">
-	            <li><i class="fas fa-check"></i> Distribution: GitHub (WIP: App Store)</li>
-                <li><i class="fas fa-check"></i> Packages: SwiftPM (WIP: CocoaPods, Carthage)</li>
+	            <li><i class="fas fa-check"></i> Distribution: GitHub (WIP: Homebrew)</li>
+                <li><i class="fas fa-check"></i> Packages: SwiftPM, CocoaPods, Carthage</li>
                 <li><i class="fas fa-check"></i> Libraries: Combine, RxSwift, Core</li>
             </ul>
         </div><!--//container-->
