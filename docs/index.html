@@ -48,8 +48,8 @@
                         <li class="nav-item sr-only"><a class="nav-link scrollto" href="#promo">Home</a></li>
                         <li class="nav-item"><a class="nav-link scrollto" href="#download">Download</a></li>
                         <li class="nav-item"><a class="nav-link scrollto" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link scrollto" href="#features">Features</a></li>
                         <li class="nav-item"><a class="nav-link scrollto" href="#docs">Get Started</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#troubleshooting">Troubleshooting</a></li>
                         <li class="nav-item last"><a class="nav-link" href="faq.html">FAQ</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
@@ -109,8 +109,10 @@
 	    <a class="btn btn-cta-secondary" style="margin-left:10px;background: #2c677b;border:gray;" href="https://github.com/icanzilb/Timelane/" target="_blank">Fork</a>
 	</p>
   
-  <div style="margin-top: 60px;font-weight: 600; background: rgba(255, 255, 255, 0.15);border-radius: 6px;">
-	  <span style="color:#f9ffb4">Attention:</span> Due to an issue in Catalina, Instruments will not work when profiling in simulators. <br/>To work around this profile from device or a different macOS version.
+  <div style="margin-top: 60px;font-weight: 600;">
+	  <p style="background: rgba(255, 255, 255, 0.15);border-radius: 6px;">
+		  <a class="nav-link scrollto" href="#troubleshooting"><span style="color:#f9ffb4">Troubleshooting:</span> For known issues click here.</a>
+	  </p>
   </div>
 
   <div style="margin-top: 60px;font-weight: 600;">
@@ -236,7 +238,7 @@
         </div><!--//container-->
     </section><!--//about-->
 
-    <!-- ******FEATURES****** --> 
+    <!-- ******FEATURES****** -->
     <section id="features" class="features section">
         <div class="container text-center">
             <h2 class="title">Features</h2>
@@ -300,6 +302,19 @@ yourPublisher
             </div><!--//block-->
             
             </div><!--//docs-inner-->         
+        </div><!--//container-->
+    </section><!--//features-->
+
+    <!-- ******TROUBLESHOOTING****** -->
+    <section id="troubleshooting" class="features section">
+        <div class="container text-center">
+            <h2 class="title">Troubleshooting</h2>
+            <ul class="feature-list list-unstyled">
+	            <li><i class="fas fa-check"></i> When profiling on Catalina + Simulator no data is being logged. Profile on device or alternatively use a different macOS version.</li>
+                <li><i class="fas fa-check"></i> If you have the `OSACTIVITYMODE` environment variable set to `disable` no data will be logged.</li>
+                <li><i class="fas fa-check"></i> Due to issue in Instruments no data is logged when profiling unit tests.</li>
+                <li><i class="fas fa-check"></i> Instruments will sometimes not refresh correctly aggregations like "Active subscriptions".</li>                
+            </ul>
         </div><!--//container-->
     </section><!--//features-->
 
