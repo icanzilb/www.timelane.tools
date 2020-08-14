@@ -127,6 +127,18 @@
         </div>
     </section><!--//promo-->
 
+  <style>
+  .package-list {
+      margin-left: 0px;
+      padding-left: 16px;
+      list-style-type: none;
+  }
+  .package-list li {
+      font-weight: 800;
+      color: #074f66;
+  }
+  </style>
+
     <!-- ******ABOUT****** --> 
     <section id="about" class="about section">
         <div class="container">
@@ -139,16 +151,15 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Free and extensible</h3>
-                        <p>The app and related frameworks are free of charge. Additionally, anyone can use the Timelane core to enable their own asynchronous code to send profiling data to the Timelane Instrument.</p>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item col-lg-4 col-md-6 col-12">
-                    <div class="icon-holder">
-                        <i class="far fa-clock"></i>
-                    </div>
-                    <div class="content">
-                        <h3 class="sub-title">Time saver</h3>
-                        <p>Timelane is specifically designed to address profiling asynchronous concurrent code. Visualizing asynchronous operations gives you a bird's view over your subscriptions.</p>
+                        <p>The app and related packages are free of charge. Timelane integrates with:</p>
+                        <ul class="package-list">
+                          <li>Combine</li>
+                          <li>RxSwift</li>
+                          <li>ReactiveSwift</li>
+                          <li>CombineX</li>
+                          <li>Operation</li>
+                        </ul>
+                        <p>Additionally, anyone can use the Timelane core to enable their own asynchronous code to send profiling data to the Timelane Instrument.</p>
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item col-lg-4 col-md-6 col-12">
@@ -157,9 +168,18 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Open source</h3>
-                        <p>Drill down into the code to explore how it works. If you find a bug or have a suggestion, do say so. Made in the open by <a href="http://www.underplot.com">Marin Todorov</a>.</p>
+                        <p>Drill down into the code to explore how it works. If you find a bug or have a suggestion, do say so. <br/><br/> If you follow suit to others in the community and make a separate package to integrate Timelane with some framework or make a new instrument based on TimelaneCore, please get in touch. Made in the open by <a href="http://www.underplot.com">Marin Todorov</a>.</p>
                     </div><!--//content-->
                 </div><!--//item-->           
+                <div class="item col-lg-4 col-md-6 col-12">
+                    <div class="icon-holder">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Time saver</h3>
+                        <p>Timelane is specifically designed to address profiling asynchronous concurrent code. Visualizing asynchronous operations gives you a bird's view over your subscriptions.  <br/><br/> You can also save your debugging session on disk and load it up at a later time for additional inspection or share it with colleagues.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
                 <div class="clearfix visible-md"></div>    
             </div><!--//row-->
 <style>
@@ -291,13 +311,20 @@ yourPublisher
                 
             </div><!--//block-->   
             <div class="block">
-                <h3 class="sub-title text-center">Source code and Documentation</h3>
+                <h3 class="sub-title text-center">Packages and Documentation</h3>
                 <p>These are all the packages that you use in your code to talk to the Timelane Instrument. Pick your flavor:</p>
                 <p class="text-center" style="margin-top: 60px;">
+                    <h4>Main</h4>
                     <a class="btn btn-cta-primary-polite" href="https://github.com/icanzilb/TimelaneCombine" target="_blank">TimelaneCombine</a>
                     <a class="btn btn-cta-primary-polite" href="https://github.com/icanzilb/RxTimelane" target="_blank">RxTimelane</a>
-                    <a class="btn btn-cta-primary-polite" href="https://github.com/icanzilb/OperationTimelane" target="_blank">OperationTimelane ß</a>
-                    <a class="btn btn-cta-primary-polite" style="margin-top:20px;" href="https://github.com/icanzilb/TimelaneCore" target="_blank">TimelaneCore</a>
+                    <a class="btn btn-cta-primary-polite" href="https://github.com/icanzilb/TimelaneCore" target="_blank">TimelaneCore</a>
+
+                    <h4 style="margin-top:25px;">Community</h4>
+                    <a class="btn btn-cta-primary-polite" href="https://github.com/nkristek/ReactiveTimelane" target="_blank">ReactiveTimelane</a>
+                    <a class="btn btn-cta-primary-polite" href="https://github.com/Sixt/TimelaneCombineX" target="_blank">TimelaneCombineX</a>
+
+                    <h4 style="margin-top:25px;">Experimental</h4>
+                    <a class="btn btn-cta-primary-polite" href="https://github.com/icanzilb/OperationTimelane" target="_blank">OperationTimelane</a>
                 </p>
             </div><!--//block-->
             
